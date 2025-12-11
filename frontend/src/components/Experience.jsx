@@ -10,8 +10,8 @@ export default function Experience() {
                 <h1>TYPE</h1>
             </div>
             <div className="flex flex-col gap-2">
-                <Row image={ucsc} institution="UC Santa Cruz" styles="w-6 h-6 mt-0.5" role="Student" title="Computer Science (B.S.)" date="2024-Present" />
-                <Row image={bgclub} institution="Boys and Girls Club" styles="w-6 h-4 mt-1.5" role="Intern" title="Volunteer" date="2023-2023" />
+                <Row image={ucsc} institution="UC Santa Cruz" styles="w-6 h-6" role="Student" title="Computer Science (B.S.)" date="2024-Present" />
+                <Row image={bgclub} institution="Boys and Girls Club" styles="w-6 h-4" role="Intern" title="Volunteer" date="2023-2023" />
             </div>
         </div>
     )
@@ -21,7 +21,7 @@ function Row({ image, styles, institution, role, title, date }) {
     return (
         <div className="flex flex-col gap-1 group font-light">
             <div className="flex flex-row justify-between text-xl text-gray-700">
-                <div className="flex flex-row gap-2">
+                <div className="flex flex-row gap-2 items-center">
                     <img className={styles} src={image} alt="row-image"></img>
                     <p>{institution}</p>
                 </div>
