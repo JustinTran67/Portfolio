@@ -37,15 +37,15 @@ function Card({ display, title, logo, description, github, demo }) {
 
     return (
         <div className="w-full">
-            <div className="flex flex-row gap-2">
-                <a className="relative w-[500px]" href={demo} target="_blank">
+            <div className="flex flex-col gap-4 md:flex-row md:gap-2">
+                <a className="relative md:w-[500px]" href={demo} target="_blank">
                 <div className=" absolute top-[1%] left-[10%] w-[80%] h-[90%] overflow-hidden rounded-lg z-0">
                         <video  src={display} autoPlay loop muted playsInline className="w-full h-full object-cover" />
                     </div>
                     <img className="w-full relative z-10" src={macbook} alt="project-border"
                     />
                 </a>
-                <div className="flex flex-col w-[400px] gap-2 text-xl font-light text-gray-700">
+                <div className="flex flex-col md:w-[400px] gap-2 text-xl font-light text-gray-700">
                     <div className="flex flex-row justify-between items-center">
                         <div className="flex flex-row gap-2 items-center">
                             <img className="w-6" src={logo} alt="project-logo"></img>
