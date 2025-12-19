@@ -5,10 +5,12 @@ import Github from "../assets/Github.jsx";
 import nextplaylogo from "../assets/nextplay.png";
 import resuraylogo from "../assets/resuray.png";
 import tictactoelogo from "../assets/tictactoe.png";
+import interviewbotlogo from "../assets/interviewbot.png";
 // videos
 import nextplaydisplay from "../assets/nextplay.mp4";
 import resuraydisplay from "../assets/resuray.mp4";
-import tictactoe from "../assets/tictactoe.mp4";
+import tictactoedisplay from "../assets/tictactoe.mp4";
+import interviewbotdisplay from "../assets/interviewbot.mp4";
 
 export default function Project() {
 
@@ -17,14 +19,18 @@ export default function Project() {
             <h1 className="text-lg text-gray-400 font-light mb-24">PROJECTS</h1>
             <div>
                 <Card display={nextplaydisplay} title="NextPlay" logo={nextplaylogo}
-                description= "Fullstack ML app that uses trained regression model to serve NBA player projections."
+                description= "Fullstack ML app that uses trained regression model to serve NBA player projections"
                 github="https://github.com/JustinTran67/NextPlay-AI" demo="https://nextplay-ai.vercel.app/"
+                />
+                <Card display={interviewbotdisplay} title="InterviewBot" logo={interviewbotlogo}
+                description="Full-stack AI voice agent made with OpenAI that generates mock interview questions and analyzes user responses"
+                github="https://github.com/JustinTran67/InterviewBot" demo="https://interview-bot-pied.vercel.app/"
                 />
                 <Card display={resuraydisplay} title="ResuRAY" logo={resuraylogo}
                 description="AI resume scoring and job description matching platform made with OpenAI"
                 github="https://github.com/JustinTran67/ResuRAY" demo="https://resuray.vercel.app/"
                 />
-                <Card display={tictactoe} title="Tic-Tac-Toe" logo={tictactoelogo}
+                <Card display={tictactoedisplay} title="Tic-Tac-Toe" logo={tictactoelogo}
                 description="Full-stack multiplayer web game that saves tictactoe game scores in SQL database"
                 github="https://github.com/JustinTran67/TicTacToe" demo="https://github.com/JustinTran67/TicTacToe"
                 />
