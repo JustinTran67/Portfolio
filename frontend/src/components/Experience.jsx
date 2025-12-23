@@ -27,7 +27,7 @@ function Row({ image, styles, institution, role, title, date }) {
                 </div>
                 <p>{role}</p>
             </div>
-            <div className="flex flex-row justify-between text-sm text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <div className="flex flex-row justify-between text-sm text-gray-400 md:opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                 <p>{title}</p>
                 <p>{date}</p>
             </div>
