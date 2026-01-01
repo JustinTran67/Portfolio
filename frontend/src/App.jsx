@@ -1,11 +1,16 @@
 import { useState } from 'react'
 import Base from './components/Base.jsx'
+import Resume from './components/Resume.jsx'
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
 
   return (
-    <div className="flex flex-col items-center justify-center px-[5%] py-[10%] md:py-[5%] md:px-[20%] gap-y-2 pb-[200px] font-body">
-      <Base />
+    <div className="">
+      <Routes>
+        <Route path="/" element={<Base />} />
+        <Route path="/resume.pdf" element={<Resume />} />
+      </Routes>
     </div>
   )
 }
