@@ -26,7 +26,7 @@ export default function Base() {
                             <p>/</p>
                             <a className="flex flex-row items-center gap-1 md:gap-2 hover:fill-gray-700 hover:text-gray-700 transition duration-200 ease-in-out" href="mailto:justinttran06@gmail.com" target="_blank"><Gmail className="w-2 md:w-4"></Gmail>Email</a>
                             <p>/</p>
-                            <a className="flex flex-row items-center gap-0 md:gap-1 hover:fill-gray-700 hover:text-gray-700 transition duration-200 ease-in-out" href="/resume.pdf" target="_blank"><ResumeIcon className="w-3 md:w-6"></ResumeIcon>Resume</a>
+                            <a className="flex flex-row items-center gap-0 md:gap-1 hover:fill-gray-700 hover:text-gray-700 transition duration-200 ease-in-out" href="/justin_tran_resume.pdf" target="_blank"><ResumeIcon className="w-3 md:w-6"></ResumeIcon>Resume</a>
                         </div>
                     </div>
                     <div className="relative shrink-0 w-[90px] md:w-[130px] h-[90px] md:h-[130px]">
