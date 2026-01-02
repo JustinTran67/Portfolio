@@ -9,3 +9,7 @@ html {
 .font-heading {
     font-family: "Lora", serif;
   }
+::selection {
+    background-color: #273E47;
+    color: white;
+  }

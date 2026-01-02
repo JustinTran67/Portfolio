@@ -22,14 +22,15 @@ export default function Experience() {
 function Row({ image, styles, institution, role, title, date }) {
     return (
         <div className="flex flex-col gap-1 group font-light">
-            <div className="flex flex-row justify-between text-xl text-gray-700">
+            <div className="flex flex-row justify-between gap-4 items-center text-xl text-gray-700">
                 <div className="flex flex-row gap-2 items-center">
                     <img className={styles} src={image} alt="row-image"></img>
                     <p>{institution}</p>
                 </div>
+                <div className="flex-1 h-px bg-gray-200" />
                 <p>{role}</p>
             </div>
-            <div className="flex flex-row justify-between text-sm text-gray-400 md:opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <div className="flex flex-row justify-between text-sm text-gray-400 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                 <p>{title}</p>
                 <p>{date}</p>
             </div>
