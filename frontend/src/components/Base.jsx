@@ -18,7 +18,7 @@ export default function Base() {
                         <h1 className="text-left font-medium text-4xl font-heading">Justin Tran</h1>
                         <h2 className="text-left text-xl mt-2 text-gray-700 font-light">Fullstack developer.</h2>
                         <div className="absolute md:relative flex flex-row gap-2 md:gap-3 mt-28 md:mt-0 text-xs md:text-lg fill-gray-400 text-gray-400 font-light">
-                            <a className="flex flex-row items-center gap-1 md:gap-2 hover:fill-gray-700 hover:text-gray-700 transition duration-200 ease-in-out" href="https://www.linkedin.com/in/justin-tran-902938355/" target="_blank"><LinkedIn className="w-2 md:w-4"></LinkedIn>LinkedIn</a>
+                            <a className="flex flex-row items-center gap-1 md:gap-2 hover:fill-gray-700 hover:text-gray-700 transition duration-200 ease-in-out" href="https://www.linkedin.com/in/justin-tin-tran/" target="_blank"><LinkedIn className="w-2 md:w-4"></LinkedIn>LinkedIn</a>
                             <p>/</p>
                             <a className="flex flex-row items-center gap-1 md:gap-2 hover:fill-gray-700 hover:text-gray-700 transition duration-200 ease-in-out" href="https://github.com/JustinTran67" target="_blank"><Github className="w-2 md:w-4"></Github>GitHub</a>
                             <p>/</p>
