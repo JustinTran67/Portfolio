@@ -2,6 +2,7 @@
 import ucsc from "../assets/ucsc.png";
 import bgclub from "../assets/boysandgirlsclub.png";
 import rekrut from "../assets/rekrut.jpeg";
+import ibm from "../assets/ibm.png";
 
 export default function Experience() {
     return (
@@ -11,9 +12,10 @@ export default function Experience() {
                 <h1>TYPE</h1>
             </div>
             <div className="flex flex-col gap-2">
-                <Row image={rekrut} institution="Rekrut AI" styles="w-6" role="Software" title="Software Engineer" date="2026-Present" />
+                <Row image={ibm} institution="IBM" styles="w-6" role="Software" title="Software Devloper Intern" date="Incoming June 2026" />
+                <Row image={rekrut} institution="Rekrut AI" styles="w-6" role="Software" title="Software Engineer Intern" date="Jan-May 2026" />
                 <Row image={ucsc} institution="UC Santa Cruz" styles="w-6 h-6" role="Student" title="Computer Science (B.S.)" date="2024-Present" />
-                <Row image={bgclub} institution="Boys and Girls Club" styles="w-6 h-4" role="Intern" title="Volunteer" date="2023-2023" />
+                <Row image={bgclub} institution="Boys and Girls Club" styles="w-6 h-4" role="Intern" title="Volunteer" date="June-Aug 2023" />
             </div>
         </div>
     )
