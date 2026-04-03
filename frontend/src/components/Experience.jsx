@@ -8,11 +8,11 @@ export default function Experience() {
     return (
         <div className="flex flex-col gap-6">
             <div className="flex flex-row justify-between text-lg text-gray-400 font-light">
-                <h1>BACKGROUND</h1>
+                <h1>EXPERIENCE</h1>
                 <h1>TYPE</h1>
             </div>
             <div className="flex flex-col gap-2">
-                <Row image={ibm} institution="IBM" styles="w-6" role="Software" title="Software Devloper Intern" date="Incoming June 2026" />
+                <Row image={ibm} institution="IBM" styles="w-6" role="Software" title="Software Developer Intern" date="Incoming June 2026" />
                 <Row image={rekrut} institution="Rekrut AI" styles="w-6" role="Software" title="Software Engineer Intern" date="Jan-May 2026" />
                 <Row image={ucsc} institution="UC Santa Cruz" styles="w-6 h-6" role="Student" title="Computer Science (B.S.)" date="2024-Present" />
                 <Row image={bgclub} institution="Boys and Girls Club" styles="w-6 h-4" role="Intern" title="Volunteer" date="June-Aug 2023" />
