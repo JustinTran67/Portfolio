@@ -4,12 +4,10 @@ import Github from "../assets/Github.jsx";
 // logos
 import nextplaylogo from "../assets/nextplay.png";
 import resuraylogo from "../assets/resuray.png";
-import tictactoelogo from "../assets/tictactoe.png";
 import interviewbotlogo from "../assets/interviewbot.png";
 // videos
 import nextplaydisplay from "../assets/nextplay.mp4";
 import resuraydisplay from "../assets/resuray.mp4";
-import tictactoedisplay from "../assets/tictactoe.mp4";
 import interviewbotdisplay from "../assets/interviewbot.mp4";
 
 export default function Project() {
@@ -29,10 +27,6 @@ export default function Project() {
                 <Card display={resuraydisplay} title="ResuRAY" logo={resuraylogo}
                 description="AI resume scoring and job description matching platform made with OpenAI"
                 github="https://github.com/JustinTran67/ResuRAY" demo="https://resuray.vercel.app/"
-                />
-                <Card display={tictactoedisplay} title="Tic-Tac-Toe" logo={tictactoelogo}
-                description="Full-stack multiplayer web game that saves tictactoe game scores in SQL database"
-                github="https://github.com/JustinTran67/TicTacToe" demo="https://github.com/JustinTran67/TicTacToe"
                 />
             </div>
         </div>
