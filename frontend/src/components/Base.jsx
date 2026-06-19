@@ -45,7 +45,7 @@ export default function Base() {
                 </div>
                 <div className="h-24"></div>
                 <div className="text-center">
-                    <a href="https://github.com/JustinTran67/justin-tran-portfolio" target="_blank" className="text-xs text-gray-400 font-light">Version 2.6 / June 2026</a>
+                    <a href="https://github.com/JustinTran67/justin-tran-portfolio" target="_blank" className="text-xs text-gray-400 font-light">Version 2.7 / June 2026</a>
                 </div>
             </div>
         </div>
