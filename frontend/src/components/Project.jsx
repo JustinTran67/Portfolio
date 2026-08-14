@@ -5,10 +5,12 @@ import Github from "../assets/Github.jsx";
 import nextplaylogo from "../assets/nextplay.png";
 import resuraylogo from "../assets/resuray.png";
 import interviewbotlogo from "../assets/interviewbot.png";
+import matchboxlogo from "../assets/matchbox.webp"
 // videos
 import nextplaydisplay from "../assets/nextplay.mp4";
 import resuraydisplay from "../assets/resuray.mp4";
 import interviewbotdisplay from "../assets/interviewbot.mp4";
+import matchboxdemo from "../assets/matchboxdemo.mp4"
 
 export default function Project() {
 
@@ -16,6 +18,10 @@ export default function Project() {
         <div>
             <h1 className="text-lg text-gray-400 font-light mb-24">PROJECTS</h1>
             <div>
+                <Card display={matchboxdemo} title="matchbox" logo={matchboxlogo}
+                description= "C++ matching engine simulating a stock exchange, deployed on Kubernetes/AWS with Kafka"
+                github="https://github.com/JustinTran67/matchbox" demo="https://github.com/JustinTran67/matchbox"
+                />
                 <Card display={nextplaydisplay} title="NextPlay" logo={nextplaylogo}
                 description= "Fullstack ML app that uses trained regression model to serve NBA player projections"
                 github="https://github.com/JustinTran67/NextPlay-AI" demo="https://nextplay-ai.vercel.app/"
